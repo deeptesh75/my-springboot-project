@@ -11,7 +11,7 @@ public class HelloController {
 		return "Hello World from 1st project";
 	}
 	@GetMapping("hello1")
-	public String greet() {
+	public String greet1() {
 		return "Hello World from 2nd project";
 	}
 	
