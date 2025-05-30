@@ -10,4 +10,9 @@ public class HelloController {
 	public String greet() {
 		return "Hello World from 1st project";
 	}
+	@GetMapping("hello1")
+	public String greet() {
+		return "Hello World from 2nd project";
+	}
+	
 }
